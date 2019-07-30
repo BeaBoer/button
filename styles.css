@@ -1,0 +1,60 @@
+div{
+  background: white;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 55px;
+}
+
+h1 {
+  font-family: arial;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Indie Flower', cursive;
+}
+
+.addStuff{
+  display: flex;
+    justify-content: center;
+}
+body {
+  animation: 10000ms ease-in-out infinite color-change;
+}
+.item-card{
+  padding:7px;
+}
+
+.delete-btn{
+  border: solid pink 2px;
+}
+.submit-btn{
+  border: solid pink 2px;
+}
+
+
+@keyframes color-change {
+  0% {
+    background-color: #D65676;
+  }
+  20% {
+    background-color: #C46BAE;
+  }
+  40% {
+    background-color: #EB7BC0;
+  }
+  60% {
+    background-color: #F283B6;
+  }
+  80% {
+    background-color: #FF8CC6;
+  }
+  100% {
+    background-color: #D65676;
+  }
+}
